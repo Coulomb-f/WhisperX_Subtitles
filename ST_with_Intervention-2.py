@@ -8,7 +8,7 @@ import gc
 from subprocess import Popen, PIPE, CalledProcessError, run
 from srt_from_json import create_srt_from_json
 from whisperx.utils import WriteSRT, WriteTXT  # Import the WriteSRT and WriteTXT classes directly
-from inputimeout import inputimeout, TimeoutOccurred
+from inputimeout import inputimeout, TimeoutOccurred # Added this comment.
 from whisperx.diarize import DiarizationPipeline
 from whisperx.transcribe import get_writer  # Import the get_writer function
 
